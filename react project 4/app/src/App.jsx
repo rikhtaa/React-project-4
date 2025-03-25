@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { useState } from 'react'
 import SearchResults from './components/SearchResults'
 
- export const BASE_URL = 'http://localhost:9000'
+ export const BASE_URL = 'https://react-project-4-backend.vercel.app/'
 const App = () => {
 const [data, setData] = useState(null)
 const[loading, setLoading] =useState(false)
